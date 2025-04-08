@@ -1,0 +1,131 @@
+/* Reset global */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Style spécifique renforcé */
+body.page-body {
+    font-family: Arial, sans-serif;
+    background-color: #e0e0e0 !important;
+    color: #333;
+    line-height: 1.6;
+    padding-top: 20px;
+}
+
+h1, h2, h3 {
+    color: #333;
+}
+
+.main-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+/* Navbar personnalisé */
+.custom-navbar {
+    background-color: #007bff !important;
+}
+
+.custom-navbar .navbar-brand {
+    font-weight: bold;
+    color: white !important;
+}
+
+.custom-navbar .nav-link {
+    color: white !important;
+}
+
+.custom-navbar .nav-link:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+/* Boutons personnalisés */
+button, .btn {
+    background-color: #007bff !important;
+    color: white !important;
+    padding: 10px 20px !important;
+    border: none !important;
+    border-radius: 4px !important;
+    cursor: pointer !important;
+}
+
+button:hover, .btn:hover {
+    background-color: #0056b3 !important;
+}
+
+/* Styles de formulaires uniformes */
+form input, form select, form textarea {
+    width: 100% !important;
+    padding: 10px !important;
+    margin: 5px 0 15px !important;
+    border: 1px solid #ccc !important;
+    border-radius: 4px !important;
+}
+
+form label {
+    font-weight: bold !important;
+}
+
+/* Card (cartes) pour profils et objets */
+.card {
+    border-radius: 8px !important;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1) !important;
+    background-color: #fff !important;
+    margin-bottom: 20px !important;
+}
+
+.card-header {
+    background-color: #28a745 !important;
+    color: white !important;
+    font-weight: bold !important;
+    padding: 10px 20px !important;
+}
+
+.card-body {
+    padding: 15px !important;
+}
+
+/* Formulaires de gestion spécifiques */
+.form-group {
+    margin-bottom: 20px !important;
+}
+
+.form-control {
+    padding: 10px !important;
+    margin: 10px 0 !important;
+    border-radius: 4px !important;
+    border: 1px solid #ddd !important;
+}
+
+input[type="submit"], .btn-submit {
+    background-color: #28a745 !important;
+    color: white !important;
+    font-weight: bold !important;
+}
+
+input[type="submit"]:hover, .btn-submit:hover {
+    background-color: #218838 !important;
+}
+
+/* Tables uniformisées */
+.card-body table {
+    width: 100% !important;
+    border-collapse: collapse !important;
+}
+
+.card-body table th, .card-body table td {
+    padding: 10px !important;
+    text-align: left !important;
+    border-bottom: 1px solid #ddd !important;
+}
+
+.card-body table th {
+    background-color: #f8f9fa !important;
+}
+
+.card-body table tr:hover {
+    background-color: #f1f1f1 !important;
+}
